@@ -1,0 +1,13 @@
+public class text {
+    public static void main(String[]args)
+    {
+        int x=0;
+        char ch='A';
+        char ch1;
+        do{
+            ch=(char)(ch+x);
+            System.out.println(ch);
+            x++;
+        }while(x<24);
+    }
+}
